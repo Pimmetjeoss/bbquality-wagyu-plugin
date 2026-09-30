@@ -14,7 +14,7 @@ De plugin combineert:
 Open **Plug-ins → Marktplaatsen → Marktplaats toevoegen** en vul in:
 
 - **Bron:** `Pimmetjeoss/bbquality-wagyu-plugin`
-- **Git-referentie:** `main`
+- **Git-referentie:** `v0.1.0` voor de vaste release, of `main` voor de nieuwste versie
 - **Sparse-paden:** leeg laten
 
 Open daarna de Plugin Directory, selecteer **BBQuality Plugins** en installeer **BBQuality Wagyu**.
