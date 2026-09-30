@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "bbquality-wagyu": {
+      "type": "streamable-http",
+      "url": "https://bbquality-mcp-staging.pim-3f7.workers.dev/mcp"
+    }
+  }
+}

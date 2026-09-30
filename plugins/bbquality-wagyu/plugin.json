@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bbquality-wagyu",
+  "version": "0.1.0",
+  "description": "Nederlandstalige BBQuality-assistent voor bronbevestigde Wagyu-recepten, Wagyu-productvarianten, hoeveelheidsadvies en een veilige winkelmandpreview.",
+  "homepage": "https://www.bbquality.nl/",
+  "repository": "https://github.com/Pimmetjeoss/bbquality-wagyu-plugin",
+  "keywords": ["bbquality", "wagyu", "recepten", "bbq", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BBQuality Wagyu",
+        "shortDescription": "Wagyu-recepten, producten en vleesplanning",
+        "longDescription": "Vind echte BBQuality Wagyu-recepten, vergelijk bevestigde Wagyu-productvarianten en maak een read-only vlees- en winkelmandvoorstel.",
+        "developerName": "BBQuality",
+        "category": "Food",
+        "capabilities": ["Search", "Read", "Planning"],
+        "websiteURL": "https://www.bbquality.nl/",
+        "defaultPrompt": [
+          "Vind een BBQuality Wagyu-recept voor vanavond.",
+          "Welke Wagyu ribeye-varianten zijn er en wat zijn de verschillen?",
+          "Maak een Wagyu-vleesvoorstel voor vier personen."
+        ],
+        "brandColor": "#B83A24",
+        "composerIcon": "./assets/wagyu-icon.svg",
+        "logo": "./assets/wagyu-logo.svg"
+      }
+    }
+  }
+}
